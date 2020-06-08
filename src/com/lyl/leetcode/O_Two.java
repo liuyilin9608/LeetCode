@@ -1,5 +1,17 @@
 package com.lyl.leetcode;
 
+/*
+ * 给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转。
+示例 1:
+输入: 123
+输出: 321
+ 示例 2:
+输入: -123
+输出: -321
+示例 3:
+输入: 120
+输出: 21
+ */
 public class O_Two {
 
 	/**
@@ -8,13 +20,13 @@ public class O_Two {
 	 */
 	public static int reverses(int x) {
 		StringBuilder s = new StringBuilder();
-		String str = String.valueOf(x);
+		String str = String.valueOf(x); //整型转化为字符串类型
 		try {
 			if (x > 0) {
 				for (int i = str.length() - 1; i >= 0; i--) {
 					s.append(str.charAt(i));
 				}
-				int y = Integer.parseInt(s.toString());
+				int y = Integer.parseInt(s.toString()); //字符串类型转化为整型
 				return y;
 			} else {
 				String sb = str.substring(1);
@@ -40,7 +52,7 @@ public class O_Two {
 		StringBuffer buf = new StringBuffer();
 		int y = Math.abs(x); // 求绝对值
 		String s = String.valueOf(y);
-		char[] ch = s.toCharArray();
+		char[] ch = s.toCharArray();  //字符串转化为数组
 		for (int i = ch.length - 1; i >= 0; i--) {
 			buf.append(ch[i]);
 		}
