@@ -14,7 +14,7 @@ package com.lyl.leetcode;
 你不需要考虑数组中超出新长度后面的元素。 
 ！！！覆盖：  nums[k] = nums[i]
  */
-public class O_Six {
+public class O_Six_移除元素 {
 
 	public static int removeElement(int[] nums, int val) {
 		

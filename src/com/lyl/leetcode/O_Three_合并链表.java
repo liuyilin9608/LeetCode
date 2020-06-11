@@ -22,7 +22,7 @@ class ListNode{
 	
 }
 
-public class O_Three {
+public class O_Three_合并链表 {
 	
 	public static void main(String[] args) {
 		ListNode l1 = new ListNode(1);

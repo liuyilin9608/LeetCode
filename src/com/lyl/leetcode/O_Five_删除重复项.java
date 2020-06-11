@@ -17,7 +17,7 @@ package com.lyl.leetcode;
  *      我们只需要在nums[i] = nums[i+1]的时候直接跳过，继续比较nums[i]与nums[i+2],,,在nums[i]! = nums[i+n]的时候，让慢指针
  *      进一位，这样也就制造了我们想要的数组。
  */
-public class O_Five {
+public class O_Five_删除重复项 {
 
 	public static int removeDuplicates(int[] nums) {
 		

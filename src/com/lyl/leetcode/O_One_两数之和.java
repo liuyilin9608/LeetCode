@@ -12,7 +12,7 @@ import java.util.Map;
 因为 nums[0] + nums[1] = 2 + 7 = 9
 所以返回 [0, 1]
  */
-public class O_One {
+public class O_One_两数之和 {
 
 	/*public static int[] twoSum(int[] nums, int target) {
         int m = 0 , n=0;

@@ -7,7 +7,7 @@ import java.util.Stack;
 
 左括号必须用相同类型的右括号闭合。
 左括号必须以正确的顺序闭合*/
-public class O_Four {
+public class O_Four_有效括号 {
     //!!!!!字符串中间一定是对称的括号
 	public static boolean isValid(String s) {
 		 /*左半边的括号全都压栈，判断右括号

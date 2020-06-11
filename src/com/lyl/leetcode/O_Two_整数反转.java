@@ -12,7 +12,7 @@ package com.lyl.leetcode;
 输入: 120
 输出: 21
  */
-public class O_Two {
+public class O_Two_整数反转 {
 
 	/**
 	 * 字符串反转Line 9: java.lang.NumberFormatException: For input string:
